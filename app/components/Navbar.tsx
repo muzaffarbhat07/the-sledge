@@ -4,7 +4,7 @@ import NavbarLink from "./NavbarLink"
 
 const Navbar = () => {
   return (
-    <nav className="w-full flex justify-between p-5">
+    <nav className="w-full flex justify-between py-5 px-2">
       <Link href="/" className="flex items-center gap-2">
         <Image 
           src="/images/haha.png" 
@@ -13,9 +13,9 @@ const Navbar = () => {
           height={20}
           className="object-contain rounded-full"
         />
-        <p className="font-satoshi font-semibold sm:text-lg md:text-2xl tracking-wide">The Sledge</p>
+        <p className="max-sm:hidden font-satoshi font-semibold sm:text-lg md:text-2xl tracking-wide">The Sledge</p>
       </Link>
-      <div className="flex gap-3 md:gap-8 md:text-lg lg:text-xl">
+      <div className="flex gap-3 md:gap-8 text-sm md:text-lg lg:text-xl">
         <NavbarLink href="/">Home</NavbarLink>
         <NavbarLink href="#">News</NavbarLink>
       </div>

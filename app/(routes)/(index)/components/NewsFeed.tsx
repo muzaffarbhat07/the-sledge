@@ -1,14 +1,5 @@
+import { NewsInfo } from "@/app/types/news";
 import NewsFeedCard from "./NewsFeedCard";
-
-export interface NewsInfo {
-  id: number;
-  title: string;
-  content: string;
-  date: Date;
-  image: string;
-  category: string;
-  slug: string;
-}
 
 type News = NewsInfo[];
 

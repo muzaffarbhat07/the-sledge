@@ -1,4 +1,4 @@
-import { NewsInfo } from "./NewsFeed"
+import { NewsInfo } from "@/app/types/news";
 import Image from "next/image"
 import Link from "next/link"
 

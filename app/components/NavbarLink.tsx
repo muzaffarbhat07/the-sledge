@@ -11,7 +11,6 @@ const NavbarLink: React.FC<NavbarLinkProps> = ({
 }) => {
   return (
     <Link href={href} className="font-inter hover:text-green-600 duration-200">{children}</Link>
-
   )
 }
 

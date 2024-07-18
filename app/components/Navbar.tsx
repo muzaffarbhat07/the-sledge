@@ -13,7 +13,7 @@ const Navbar = () => {
           height={20}
           className="object-contain rounded-full"
         />
-        <p className="max-sm:hidden font-satoshi font-semibold sm:text-lg md:text-2xl tracking-wide">The Sledge</p>
+        <p className="font-satoshi font-semibold sm:text-lg md:text-2xl tracking-wide">The Sledge</p>
       </Link>
       <div className="flex gap-3 md:gap-8 md:text-lg lg:text-xl">
         <NavbarLink href="/">Home</NavbarLink>

@@ -7,7 +7,7 @@ const NewsFeed = () => {
   const news: News = [
     {
       id: 1,
-      title: "Title1",
+      title: "This is title1 - news heading",
       content: "Content",
       date: new Date(),
       image: "/images/haha.jpeg",

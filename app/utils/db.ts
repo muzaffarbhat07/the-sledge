@@ -8,6 +8,7 @@ async function connectToDB() {
     return;
   }
 
+  mongoose.set('strictQuery', true);
   try {
     await mongoose.connect(process.env.MONGODB_URI as string);
     isConnected = true;

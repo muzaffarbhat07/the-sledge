@@ -4,6 +4,7 @@ import mongoose, { Schema, Document, models, model } from 'mongoose';
 interface INews extends Document {
   title: string;
   content: string;
+  image: string;
   slug: string;
   author: string;
   createdAt: Date;
@@ -14,6 +15,7 @@ interface INews extends Document {
 const NewsSchema: Schema = new Schema({
   title: { type: String, required: true },
   content: { type: String, required: true },
+  image: { type: String },
   slug: { type: String, required: true, unique: true },
   author: { type: String, required: true },
   createdAt: { type: Date, default: Date.now },
